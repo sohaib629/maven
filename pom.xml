@@ -1,0 +1,37 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.testdouble</groupId>
+	<artifactId>test-training</artifactId>
+	<packaging>pom</packaging>
+	<version>0.0.3</version>
+	<name>test-training</name>
+        <url>https://github.com/testdouble/contributing-tests/wiki</url>
+	<modules>
+          <module>example</module>
+          <module>greeting</module>
+          <module>unusual-spending-vendor</module>
+          <module>unusual-spending</module>
+          <module>example-cucumber</module>
+          <module>bank-ocr</module>
+          <module>gilded-rose</module>
+          <module>game-of-life</module>
+	</modules>
+
+
+	<distributionManagement>
+	  <snapshotRepository>
+	    <id>nexus-snapshots</id>
+	    <url>http://ec2-52-66-206-124.ap-south-1.compute.amazonaws.com:8081/repository/maven2_snapshots/</url>
+	  </snapshotRepository>
+	  <repository>
+	    <id>nexus-releases</id>
+	    <url>http://ec2-52-66-206-124.ap-south-1.compute.amazonaws.com:8081/repository/maven2_releases/</url>
+	  </repository>
+	</distributionManagement>
+
+</project>
+
+ 
+ 
+ 
